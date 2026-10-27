@@ -129,35 +129,6 @@
                 </li>
 
                 <li role="separator" class="dropdown-divider mt-4 mb-3 border-gray-700"></li>
-                <li class="nav-item">
-                    <a href="https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/quick-start/"
-                        target="_blank" class="nav-link d-flex align-items-center">
-                        <span class="sidebar-icon">
-                            <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </span>
-                        <span class="sidebar-text">Documentation <span
-                                class="badge badge-sm bg-secondary ms-1 text-gray-800">v1.4</span></span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#"
-                        class="btn btn-secondary d-flex align-items-center justify-content-center btn-upgrade-pro">
-                        <span class="sidebar-icon d-inline-flex align-items-center justify-content-center">
-                            <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </span>
-                        <span>Upgrade to Pro</span>
-                    </a>
-                </li>
             </ul>
         </div>
     </nav>
@@ -188,81 +159,6 @@
                     </div>
                     <!-- Navbar links -->
                     <ul class="navbar-nav align-items-center">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link text-dark notification-bell unread dropdown-toggle"
-                                data-unread-notifications="true" href="#" role="button"
-                                data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                                <svg class="icon icon-sm text-gray-900" fill="currentColor" viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z">
-                                    </path>
-                                </svg>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-center mt-2 py-0">
-                                <div class="list-group list-group-flush">
-                                    <a href="#"
-                                        class="text-center text-primary fw-bold border-bottom border-light py-3">Notifications</a>
-                                    <a href="#" class="list-group-item list-group-item-action border-bottom">
-                                        <div class="row align-items-center">
-                                            <div class="col-auto">
-                                                <!-- Avatar -->
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('assets-admin/img/team/profile-picture-1.jpg') }}"
-                                                    class="avatar-md rounded">
-                                            </div>
-                                            <div class="col ps-0 ms-2">
-                                                <div class="d-flex justify-content-between align-items-center">
-                                                    <div>
-                                                        <h4 class="h6 mb-0 text-small">Jose Leos</h4>
-                                                    </div>
-                                                    <div class="text-end">
-                                                        <small class="text-danger">a few moments ago</small>
-                                                    </div>
-                                                </div>
-                                                <p class="font-small mt-1 mb-0">Added you to an event "Project
-                                                    stand-up"
-                                                    tomorrow at 12:30 AM.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="list-group-item list-group-item-action border-bottom">
-                                        <div class="row align-items-center">
-                                            <div class="col-auto">
-                                                <!-- Avatar -->
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('assets-admin/img/team/profile-picture-2.jpg') }}"
-                                                    class="avatar-md rounded">
-                                            </div>
-                                            <div class="col ps-0 ms-2">
-                                                <div class="d-flex justify-content-between align-items-center">
-                                                    <div>
-                                                        <h4 class="h6 mb-0 text-small">Neil Sims</h4>
-                                                    </div>
-                                                    <div class="text-end">
-                                                        <small class="text-danger">2 hrs ago</small>
-                                                    </div>
-                                                </div>
-                                                <p class="font-small mt-1 mb-0">You've been assigned a task for
-                                                    "Awesome
-                                                    new project".</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="dropdown-item text-center fw-bold rounded-bottom py-3">
-                                        <svg class="icon icon-xxs text-gray-400 me-1" fill="currentColor"
-                                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                            <path fill-rule="evenodd"
-                                                d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
-                                                clip-rule="evenodd"></path>
-                                        </svg>
-                                        View all
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
                         <li class="nav-item dropdown ms-lg-3">
                             <a class="nav-link dropdown-toggle pt-1 px-0" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">

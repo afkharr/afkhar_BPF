@@ -3,6 +3,7 @@
 use App\Http\Controllers\DashboardCotroller;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PelangganController;
+use App\Http\Controllers\ProfilController;
 use App\Http\Controllers\QuestionController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,3 +20,5 @@ Route::get('dashboard', [DashboardCotroller::class, 'index'])
         ->name('dashboard');
 
 Route::resource('pelanggan', PelangganController::class);
+
+Route::resource('profil', ProfilController::class);
